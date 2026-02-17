@@ -54,13 +54,13 @@ The pipeline requires a local Orthanc instance to simulate clinical storage infr
 
 3D Slicer is used for data preparation and validation.
 
-Transcoding
+Transcoding: 
 Use Slicer’s DICOM module to convert original `.nii.gz` volumes into DICOM format.
 
-Upload
+Upload: 
 Upload converted DICOM series to the local Orthanc instance.
 
-Verification
+Verification: 
 Load `prediction_mask.nii.gz` in Slicer alongside the source scans to verify anatomical alignment.
 
 ### 3. Python Requirements
