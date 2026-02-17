@@ -101,10 +101,6 @@ For step-wise validation, run individual scripts inside `development_steps/`. Ea
 
 Anvita Manne
 
-Perfect. I’ll keep your README exactly as it is and only add the necessary acknowledgement section — nothing extra, no disclaimers, no expansion.
-
-You can append this at the end of your existing README:
-
 ---
 
 ## Acknowledgement
