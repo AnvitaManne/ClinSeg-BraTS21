@@ -1,14 +1,15 @@
-# ClinSeg-BraTS21 
+# ClinSeg-BraTS21  
 ## End-to-End Multimodal Brain Tumor Segmentation from Model Training to Clinical Integration
 
-This project implements a full-stack medical AI workflow bridging deep learning research and clinical data infrastructure. It features a multimodal U-Net trained on the BraTS 2021 dataset and an automated inference pipeline integrated directly with a PACS server.
-The project simulates a real-world clinical deployment environment by handling the full lifecycle of a medical imaging task, from local data management in Orthanc to automated processing and 3D validation in 3D Slicer.
+This project implements a full-stack medical AI workflow that bridges deep learning research with clinical imaging infrastructure. It includes training a multimodal U-Net on the BraTS 2021 dataset and deploying an automated inference pipeline integrated with a PACS server.
 
-Key technical components:
+The system simulates a real-world clinical environment by managing the complete medical imaging lifecycle — from local data storage in Orthanc to automated inference and 3D validation in 3D Slicer.
 
-* Deep Learning: Multimodal U-Net architecture implemented using MONAI and PyTorch
-* Clinical Integration: Automated REST API interaction with an Orthanc PACS server
-* Coordinate Synchronization: Affine matrix mapping to ensure zero-shift anatomical alignment between AI masks and original DICOM scans
+### Key Technical Components
+
+- **Deep Learning:** Multimodal U-Net architecture implemented using MONAI and PyTorch  
+- **Clinical Integration:** Automated REST API interaction with an Orthanc PACS server  
+- **Coordinate Synchronization:** Affine matrix mapping to ensure zero-shift anatomical alignment between AI masks and original DICOM scans  
 
 ---
 
