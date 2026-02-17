@@ -3,6 +3,7 @@ import requests
 ORTHANC_URL = "http://localhost:8042"
 AUTH = ("orthanc", "orthanc")
 
+# The ID you assigned in 3D Slicer/Orthanc for target patient
 PATIENT_ID = "001" 
 
 studies = requests.get(f"{ORTHANC_URL}/studies", auth=AUTH).json()
@@ -18,4 +19,5 @@ for study_id in studies:
 if found_studies:
     print("Found studies for Patient 001:", found_studies)
 else:
+
     print("Patient not found")
