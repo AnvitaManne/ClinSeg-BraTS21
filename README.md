@@ -65,7 +65,7 @@ Load `prediction_mask.nii.gz` in Slicer alongside the source scans to verify ana
 
 ---
 
-### Sample Clinical Output
+#### Sample Clinical Output
 
 ![Predicted Tumor Segmentation (3D Slicer Overlay)](images/slicer_prediction.png)
 
