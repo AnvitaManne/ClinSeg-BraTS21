@@ -65,7 +65,6 @@ model.eval()
 print(" Model loaded")
 
 # LOAD NIFTI + STACK
-# FIX: Load the FLAIR object to keep coordinate metadata
 flair_obj = nib.load(flair_nii) 
 flair_data = flair_obj.get_fdata()
 t1_data = nib.load(t1_nii).get_fdata()
@@ -89,3 +88,4 @@ nib.save(prediction_nii, "prediction_mask.nii.gz")
 
 
 print(" Full pipeline complete.\nSaved: prediction_mask.nii.gz")
+
