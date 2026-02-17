@@ -61,7 +61,17 @@ Upload:
 Upload converted DICOM series to the local Orthanc instance.
 
 Verification: 
-Load `prediction_mask.nii.gz` in Slicer alongside the source scans to verify anatomical alignment.
+Load `prediction_mask.nii.gz` in Slicer alongside the source scans to verify anatomical alignment and view predicted tumor.
+
+---
+
+## Sample Clinical Output
+
+![Predicted Tumor Segmentation (3D Slicer Overlay)](images/slicer_prediction.png)
+
+---
+
+
 
 ### 3. Python Requirements
 
