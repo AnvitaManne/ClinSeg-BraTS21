@@ -18,7 +18,7 @@ SERIES = {
     "t2": "f6fc1a44-541c3d2b-1db48635-c5eec6f2-eba3d4b5"
 }
 
-MODEL_PATH = "C:\\Users\\anvit\\Downloads\\Suvarna_Model_Run\\unet_brats_multimodal_epoch_50.pth"
+MODEL_PATH = "model\unet_brats_multimodal_epoch_50.pth"
 
 os.makedirs("dicom_temp", exist_ok=True)
 os.makedirs("nifti_temp", exist_ok=True)
