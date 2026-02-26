@@ -1,7 +1,5 @@
 # Clinical Segmentation of BraTS21
 
-An end-to-end Multimodal Brain Tumor Segmentation from Model Training to Clinical Integration
-
 This project implements a full-stack medical AI workflow that bridges deep learning research with clinical imaging infrastructure. It includes training a multimodal U-Net on the BraTS 2021 dataset and deploying an automated inference pipeline integrated with a PACS server.
 
 The system simulates a real-world clinical environment by managing the complete medical imaging lifecycle from local data storage in Orthanc to automated inference and 3D validation in 3D Slicer.
