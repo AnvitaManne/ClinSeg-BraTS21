@@ -16,7 +16,6 @@ The system simulates a real-world clinical environment by managing the complete 
 
 ### Sample Clinical Output
 F - predicted tumor with 50% opactiy
-
 B - flair 
 ![Predicted Tumor Segmentation (3D Slicer Overlay)](images/slicer_prediction.png)
 
